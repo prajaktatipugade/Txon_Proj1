@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".length">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="267dp"
+        android:layout_height="53dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="enter number"
+
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/output1"
+        android:layout_width="267dp"
+        android:layout_height="53dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="output"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <Button
+        android:id="@+id/meters"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        android:padding="20dp"
+        android:text="meters"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <Button
+        android:id="@+id/bck1"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:text="back"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/miles"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+
+        android:text="miles"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559" />
+
+    <Button
+        android:id="@+id/centimeter"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        android:text="centimeter"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <Button
+        android:id="@+id/kilometer"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        android:padding="20dp"
+        android:text="kilometer"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+</android.support.constraint.ConstraintLayout>
